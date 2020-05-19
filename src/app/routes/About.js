@@ -66,7 +66,7 @@ const About = (props) => {
 
   return (
     <div className="main-container">
-      <HeroImage history={props.history}/>
+      {/* <HeroImage history={props.history}/> */}
       <Header history={props.history} pageActive="about"/>
 
       <div className="about-page">
@@ -165,11 +165,7 @@ const About = (props) => {
             </div>
         </div>
 
-
-
-
-
-     {/* <Footer />  */}
+      <Footer /> 
 
     </div>
     </div>

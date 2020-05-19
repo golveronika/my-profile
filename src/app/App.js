@@ -10,7 +10,7 @@ const App = (props) => {
   return (
     <div className="main-container">
 
-    <HeroImage history={props.history}/>
+    {/* <HeroImage history={props.history}/> */}
     <Header history={props.history}/>
 
       <div className="hello-page">

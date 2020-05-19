@@ -4,6 +4,7 @@
 @import "./partials/hello-page.scss";
 @import "./partials/footer.scss";
 @import "./partials/about.scss";
+@import "./partials/project.scss";
 
 * {
     margin: 0;
@@ -21,5 +22,13 @@ body {
     // height: calc(100vh - 44px);
     // justify-content: space-between;
     letter-spacing: 0.5px;
-    height: 100vh;
+    // height: 100vh;
 }
+
+.switch-wrapper {
+    // background-color: $dark-color;
+  }
+   
+  .switch-wrapper > div {
+    transition: opacity 0.3s ease;
+  }

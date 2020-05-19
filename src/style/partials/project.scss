@@ -1,0 +1,29 @@
+.project-page {
+    min-height: 430px;
+
+
+
+    .soon {
+        padding-top: 40px;
+      text-align: center;
+      font-size: 40px; 
+      font-weight: 600;
+      
+      background: linear-gradient(to right, $contrast-color 20%, $main-color 40%, $main-color 60%, $contrast-color 80%);
+      background-size: 200% auto;
+      
+      color: #0000;
+      background-clip: text;
+      text-fill-color: transparent;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      
+      animation: shine 4s linear infinite;
+      @keyframes shine {
+        to {
+          background-position: 200% center;
+        }
+      }
+    }
+}
+

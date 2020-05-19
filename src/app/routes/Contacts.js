@@ -7,11 +7,15 @@ const Contacts = (props) => {
 
   return (
     <div className="main-container">
-      <HeroImage history={props.history}/>
+      {/* <HeroImage history={props.history}/> */}
       <Header history={props.history} pageActive="contacts"/>
 
-      <div className="contacts-page">
+      {/* <div className="contacts-page">
       Contacts
+      </div> */}
+        
+      <div className="project-page">
+        <div className="soon">soon...</div>
       </div>
       <Footer />
     </div>

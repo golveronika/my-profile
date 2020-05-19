@@ -8,12 +8,12 @@ const Projects = (props) => {
   return (
     <div className="main-container">
 
-      <HeroImage history={props.history}/>
+      {/* <HeroImage history={props.history}/> */}
       <Header history={props.history} pageActive="projects"/>
 
 
       <div className="project-page">
-        Projects
+        <div className="soon">soon...</div>
       </div>
       <Footer />
     </div>
