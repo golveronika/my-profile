@@ -1,6 +1,7 @@
 import React from 'react'
 import HeroImage from './../components/HeroImage'
 import Header from './../components/Header'
+import Footer from '../components/Footer'
 
 const Contacts = (props) => {
 
@@ -12,6 +13,7 @@ const Contacts = (props) => {
       <div className="contacts-page">
       Contacts
       </div>
+      <Footer />
     </div>
   );
 }

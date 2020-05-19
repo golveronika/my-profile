@@ -11,7 +11,7 @@
         align-items: center;
         text-decoration: none;    
         color: $base-color; 
-        font-weight: 100;
+        font-weight: 400;
         font-size: 15px;  
         padding: 0 10px; 
         letter-spacing: 0.5px;
@@ -24,6 +24,17 @@
             background-color: $dark-color;
             color: $contrast-color; 
         }
+    }
+
+}
+
+@media screen and (max-width: $bp-xs) { 
+    .header {
+        padding: 0 20px;
+        &__link {
+            font-size: 12px;  
+        }
+
     }
 
 }

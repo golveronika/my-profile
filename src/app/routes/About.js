@@ -1,6 +1,7 @@
 import React from 'react'
 import HeroImage from './../components/HeroImage'
 import Header from './../components/Header'
+import Footer from '../components/Footer'
 
 const About = (props) => {
 
@@ -12,6 +13,9 @@ const About = (props) => {
       <div className="about-page">
         About
       </div>
+
+
+      <Footer />
 
     </div>
   );

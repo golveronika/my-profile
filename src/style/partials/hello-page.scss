@@ -1,0 +1,53 @@
+.hello-page {
+    padding: 30px;
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    .reach-text {
+        &__left {
+            text-align: left;
+        }
+        &__right {
+            text-align: right;
+        }
+        &__title {
+            color: $contrast-color;
+            font-size: 26px;
+            font-weight: 500;
+            letter-spacing: 1px;
+            margin-bottom: 13px;
+        }
+        &__text {
+            color: $text-color;
+            font-size: 18px;
+            font-weight: 300;
+            letter-spacing: 0.3px;
+            line-height: 1.7;
+        }
+        &__link {
+            text-decoration: none;
+            color: $main-color;
+            transition: color 0.3s  ease;
+            &:hover {
+                color: $contrast-color;
+                transition: color 0.3s  ease;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $bp-sm) { 
+    .hello-page {
+
+        .reach-text {
+            &__title {
+                font-size: 18px;
+            }
+            &__text {
+                font-size: 14px;
+            }
+        }
+    }
+
+}

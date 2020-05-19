@@ -1,6 +1,8 @@
 @import "./partials/variables.scss";
 @import "./partials/hero-image.scss";
 @import "./partials/header.scss";
+@import "./partials/hello-page.scss";
+@import "./partials/footer.scss";
 
 * {
     margin: 0;
@@ -15,5 +17,7 @@ body {
 .main-container {
     display: flex;
     flex-direction: column;
+    // height: calc(100vh - 44px);
+    // justify-content: space-between;
     height: 100vh;
 }
