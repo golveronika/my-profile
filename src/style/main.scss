@@ -3,6 +3,7 @@
 @import "./partials/header.scss";
 @import "./partials/hello-page.scss";
 @import "./partials/footer.scss";
+@import "./partials/about.scss";
 
 * {
     margin: 0;
@@ -19,5 +20,6 @@ body {
     flex-direction: column;
     // height: calc(100vh - 44px);
     // justify-content: space-between;
+    letter-spacing: 0.5px;
     height: 100vh;
 }
