@@ -1,0 +1,69 @@
+.hero-image {
+
+    width: 100%;
+    height: 430px;
+    background-color: $dark-color;
+    position: relative;
+
+    &__inner {
+        width: inherit;
+        height: inherit;
+        background-size: cover;
+        opacity: 0.5;
+        transition: opacity 0.5s 0.5s ease-in;
+    }
+
+    &__text-container {
+        position: absolute;
+        top: 30px;
+        width: 100%;
+        text-align: center;
+    }
+
+    &__title {
+        color: $base-color;
+        opacity: 1;
+        font-size: 26px;
+        display: block;
+        margin-bottom: 25px;
+        letter-spacing: 1.2px;
+        &__link {
+            text-decoration: none;
+            color: $base-color;
+        }
+    }
+    &__line {
+        position: absolute;
+        background-color: $contrast-color;
+        transform: translate(-50%, 0);
+        left: 50%;
+        top: 38px;
+        width: 100px;
+        height: 5px;
+    }   
+
+    &__name {
+        color: $base-color;
+        font-weight: 100;
+        word-spacing: 1.2px;
+        letter-spacing: 1.2px;
+        font-size: 14px;
+    }
+    
+}
+
+@media screen and (max-width: $bp-sm) { 
+    .hero-image {
+
+        height: 300px;
+    }
+
+}
+
+@media screen and (max-width: $bp-xs) { 
+    .hero-image {
+
+        height: 200px;
+    }
+
+}

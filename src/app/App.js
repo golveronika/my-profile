@@ -1,11 +1,21 @@
 import React from 'react'
+import HeroImage from './components/HeroImage'
+import Header from './components/Header'
 
-const App = () => {
+const App = (props) => {
+
+  console.log(props)
 
   return (
-    <>
-    Hello Veronika!
-    </>
+    <div className="main-container">
+
+    <HeroImage history={props.history}/>
+    <Header history={props.history}/>
+
+      <div className="hello-page">
+        Hello Veronika!
+      </div>
+    </div>
   );
 }
 

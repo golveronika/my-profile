@@ -1,0 +1,19 @@
+@import "./partials/variables.scss";
+@import "./partials/hero-image.scss";
+@import "./partials/header.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-common;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
