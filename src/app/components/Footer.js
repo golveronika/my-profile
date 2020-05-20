@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footer">
         <div className="credits">This page made by me </div>
         <div >
-            <a className="pdf-link"href="#">Download in pdf <Icon_PDF /></a>
+            <a className="pdf-link"href="Resume_Golovanova_Veronika.pdf">Download in pdf <Icon_PDF /></a>
         </div>
     </footer>
   );
